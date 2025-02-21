@@ -37,13 +37,18 @@
             int soNgay = 0;
             switch (Thang)
             {
-                case 1: case 3:
+                case 1:
+                case 3:
                 case 5:
-                case 7: case 8:
+                case 7:
+                case 8:
                 case 10:
                 case 12:
                     soNgay = 31; break;
-                case 4: case 6: case 9: case 11:
+                case 4:
+                case 6:
+                case 9:
+                case 11:
                     soNgay = 30; break;
                 case 2:
                     soNgay = laNamNhuan ? 29 : 28; break;
@@ -59,6 +64,16 @@
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnNhapLai_Click(object sender, EventArgs e)
+        {
+            txtKetQua.Clear();
+            txtNam.Clear();
+            txtThang.Text = "";
+
+            //đưa con trỏ chỏ vô ô nhập năm
+            txtNam.Focus();
         }
     }
 }
