@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLINQ", "DemoLINQ\DemoLINQ.csproj", "{007F7293-C6FA-4F46-BF46-75B9F817BBBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{007F7293-C6FA-4F46-BF46-75B9F817BBBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007F7293-C6FA-4F46-BF46-75B9F817BBBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007F7293-C6FA-4F46-BF46-75B9F817BBBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007F7293-C6FA-4F46-BF46-75B9F817BBBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FCD4E0B-6904-4B65-92BC-97249AD6EDE4}
+	EndGlobalSection
+EndGlobal
